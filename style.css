@@ -2322,3 +2322,17 @@ article .content { *zoom: 1; }
 	}
 
 }
+/* TEMPORARY STUFF TO BE MOVED OUT LATER */
+ul.sponsor-list {
+	list-style-type: none;
+}
+ul.sponsor-list li {
+	display: inline-box;
+}
+#nav ul ul {
+	display: block;
+	left: -9999px;
+}
+#nav ul li:hover ul {
+	left: 0;
+}
