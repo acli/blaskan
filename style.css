@@ -2322,3 +2322,18 @@ article .content { *zoom: 1; }
 	}
 
 }
+/*
+ * TEMPORARY STUFF TO BE MOVED OUT LATER
+ *
+ * Submenu fixes (integrated above) hopefully to be merged into upstream:
+ * https://github.com/acli/blaskan/commit/submenu-fixes
+ *
+ * Original submenu fixes:
+ * https://github.com/acli/blaskan/commit/DEEP-hacks-original
+ */
+ul.sponsor-list {
+	list-style-type: none;
+}
+ul.sponsor-list li {
+	display: inline-box;
+}
