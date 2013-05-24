@@ -1,3 +1,14 @@
+This is a fork of Blaskan for the DEEP 2013 conference
+until the team can get FTP access to create a child theme.
+
+Accessibility fixes:
+- merged from the submenu-fixes branch
+
+Local behaviours (child theme material):
+- sponsor-list (see DEEP-hacks-original branch)
+
+-------------------------------------------------------------------------------
+
 WordPress theme Blaskan:
 ------------------------
 Author: Per Sandström
