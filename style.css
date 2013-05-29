@@ -2324,10 +2324,45 @@ article .content { *zoom: 1; }
 
 }
 /* TEMPORARY STUFF TO BE MOVED OUT LATER */
+/* Make the sponsor list an actual semantic list, but shown as inline ^acli */
 ul.sponsor-list {
 	list-style-type: none;
 }
 ul.sponsor-list li {
 	display: inline-box;
 }
+/* Remove the weird space and odd corners between menu items ^acli - DISABLED FOR NOW
+#nav ul ul a {
+	margin-bottom: 0;
+	-moz-border-radius: 0;
+	-ms-border-radius: 0;
+	-o-border-radius: 0;
+	-webkit-border-radius: 0;
+	border-radius: 0;
+}
+#nav ul ul li:first-child a {
+	-moz-border-top-left-radius: 3px;
+	-ms-border-top-left-radius: 3px;
+	-o-border-top-left-radius: 3px;
+	-webkit-top-left-border-radius: 3px;
+	border-top-left-radius: 3px;
+	-moz-border-top-right-radius: 3px;
+	-ms-border-top-right-radius: 3px;
+	-o-border-top-right-radius: 3px;
+	-webkit-top-right-border-radius: 3px;
+	border-top-right-radius: 3px;
+}
+#nav ul ul li:last-child a {
+	-moz-border-bottom-left-radius: 3px;
+	-ms-border-bottom-left-radius: 3px;
+	-o-border-bottom-left-radius: 3px;
+	-webkit-bottom-left-border-radius: 3px;
+	border-bottom-left-radius: 3px;
+	-moz-border-bottom-right-radius: 3px;
+	-ms-border-bottom-right-radius: 3px;
+	-o-border-bottom-right-radius: 3px;
+	-webkit-bottom-right-border-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
+*/
 /* ul ul fix above (testing */
