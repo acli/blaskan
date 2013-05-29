@@ -23,7 +23,7 @@ http://www.helloper.com/blog/2012/06/getting-help-with-blaskan-and-wordpress/
 body {
 	background: #fff;
 	color: #444;
-	font: 15px/22px 'Helvetica Neue', sans-serif;
+	font: 16px/22px 'Helvetica Neue', sans-serif;
 	font-weight: 300;
 	padding: 0 10px;
 }
@@ -719,7 +719,8 @@ iframe {
 	position: relative;
 	text-decoration: none;
 	text-shadow: 0 1px 1px #000;
-  text-transform: uppercase;
+        /* text-transform: uppercase; */
+	text-transform: none;
 }
 
 #nav a:focus,
@@ -2322,18 +2323,11 @@ article .content { *zoom: 1; }
 	}
 
 }
-/*
- * TEMPORARY STUFF TO BE MOVED OUT LATER
- *
- * Submenu fixes (integrated above) hopefully to be merged into upstream:
- * https://github.com/acli/blaskan/commit/submenu-fixes
- *
- * Original submenu fixes:
- * https://github.com/acli/blaskan/commit/DEEP-hacks-original
- */
+/* TEMPORARY STUFF TO BE MOVED OUT LATER */
 ul.sponsor-list {
 	list-style-type: none;
 }
 ul.sponsor-list li {
 	display: inline-box;
 }
+/* ul ul fix above (testing */
